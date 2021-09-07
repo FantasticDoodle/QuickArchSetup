@@ -1,0 +1,32 @@
+# update packages
+sudo pacman -Syu --noconfirm
+# install window managers
+sudo pacman -S awesome xmonad qtile openbox i3-gaps --noconfirm
+# install alsamixer (useful audio tool)
+sudo pacman -S alsamixer --noconfirm
+# graphics tools
+sudo pacman -S krita gimp --noconfirm
+# video editor
+sudo pacman -S kdenlive --noconfirm
+# i3status
+sudo pacman -S i3status --noconfirm
+# python and python-pip
+sudo pacman -S python python-pip --noconfirm
+# compositor
+sudo pacman -S picom --noconfirm
+# nvidia driver
+sudo pacman -S nvidia --noconfirm
+# mc (file manager)
+sudo pacman -S mc --noconfirm
+# rofi (program launcher)
+sudo pacman -S rofi --noconfirm
+# Terminator (terminal emulator)
+sudo pacman -S terminator --noconfirm
+# fonts (required by firefox and other programs)
+sudo pacman -S noto-fonts --noconfirm
+# VS Code
+sudo pacman -S code --noconfirm
+# Notepadqq
+sudo pacman -S notepadqq --noconfirm
+# Bumblebee-status (optional)
+#sudo pip install bumblebee-status
