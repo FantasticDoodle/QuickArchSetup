@@ -7,3 +7,6 @@ on another machine (assuming this is a brand new install of arch) open this repo
 
 ## Running
 the ```wget``` command will only download the text file, you need to use the command ```mv (downloaded filename) filename.sh```. you can run it by doing ```sudo sh filename.sh```.
+
+## Notes
+ -- xorg and xorg-xinit need to be installed seperatley
